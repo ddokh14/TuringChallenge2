@@ -1,0 +1,27 @@
+.menu-group{
+    display: flex;
+    flex-direction: column;
+}
+.menu-group-title{
+    font-family: "NewFont";
+    font-variant-caps: all-petite-caps;
+    color: rgb(66, 63, 63);
+    margin-bottom:10px;
+    padding-left: 50px;
+}
+.menu-group-item{
+    font-family: "GorditaRegular";
+    padding:10px 0 10px 50px;
+    color: rgb(126, 126, 126); 
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu-group-item:hover{
+    background-color: rgb(252, 252, 252);
+    font-weight: 600;
+    color: rgb(66, 63, 63);
+}
+.menu-group-item:last-child{
+    margin-bottom:10px;
+}

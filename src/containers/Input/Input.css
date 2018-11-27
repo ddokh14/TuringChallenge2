@@ -1,0 +1,41 @@
+
+.input-wrapper{
+    margin-bottom: 50px;
+    position: relative;
+}
+.input-label{
+    position: absolute;
+    opacity: 0;
+    top:0;
+    font-size:12px;
+}
+.input-label-active{
+    position: absolute;
+    font-family: "GorditaRegular";
+    color: rgb(32, 32, 32);
+    top:0;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    font-size:12px;
+    transform:translateY(-100%);
+}
+.input,.input-select{
+    width: 100%;
+    outline: none;
+    border:0;
+    border-bottom:2px solid rgb(247, 247, 247);
+    background-color: transparent;
+    height: 50px;
+    font-size: 20px;
+    font-family: "GorditaRegular";
+    color: rgb(32, 32, 32);
+    transition: all 0.3s ease;
+}
+.input:focus,.input-select:focus{
+    border-bottom:2px solid rgb(30, 30, 30);
+}
+.input-select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

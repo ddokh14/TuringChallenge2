@@ -1,32 +1,26 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'GorditaRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/hinted-GorditaRegular.ttf');
+}
+@font-face {
+    font-family: 'GorditaMedium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/hinted-GorditaMedium.ttf');
+}
+@font-face {
+    font-family: 'GorditaBold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/hinted-GorditaBold.ttf');
+}
+@font-face {
+    font-family: 'NewFont';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/A8ABDE12F18C753619F57193C5FA296E.TTF');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

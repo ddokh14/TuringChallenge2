@@ -1,0 +1,46 @@
+.drawer{
+    width: 20%;
+    background-color: white;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    box-shadow: 0px 4px 5.64px 0.36px rgba(0, 0, 0, 0.05),0px 2px 7.84px 0.16px rgba(0, 0, 0, 0.02);
+    box-sizing: border-box;
+}
+.drawer-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left:50px;
+}
+.drawer-content{
+    display: flex;
+    flex-direction: column;
+}
+.drawer-content-title{
+    font-family: "GorditaMedium";
+    color: rgb(23, 23, 23);
+    text-align: left;
+    margin:40px 0;
+    height: 43px;
+    padding-left:50px;
+}
+.drawer-content-title h3{
+    margin:0;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .drawer {
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .drawer {
+        width: 30%;
+    }
+}
+  
